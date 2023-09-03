@@ -2,7 +2,7 @@
 
 RouterOS scripts to enable or disable all LEDs.
 
-The intended use is to disable all LEDs at night. I schedule it as follows:
+The intended use is to disable all LEDs at night. Example:
 
 ```
 add name=disableLEDs_night on-event=disableLEDs policy=read,write start-date=sep/03/2023 start-time=20:00:00
